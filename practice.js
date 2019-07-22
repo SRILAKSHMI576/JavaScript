@@ -1,2 +1,7 @@
-var arr = 3 + 4;
-console.log(arr);
+function greet(name) {
+  name = name || "<you are here>";
+  console.log("hello " + name);
+}
+greet();
+greet("sri");
+greet(0);
