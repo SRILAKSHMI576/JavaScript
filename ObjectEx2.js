@@ -8,5 +8,4 @@ var spanish = {};
 
 english.greet = "Helo";
 spanish.greet = "Hola";
-
 console.log(english);
