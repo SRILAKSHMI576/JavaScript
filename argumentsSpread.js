@@ -10,6 +10,8 @@ function greet(firstname, lastname, language) {
   console.log(language);
   console.log(arguments);
   console.log("--------------");
+  console.log("arg 0: " + arguments[0]);
+  console.log("--------------");
 }
 
 greet();
