@@ -92,11 +92,33 @@
 //   console.log("");
 // }
 
-sum = 0;
-value = 9;
-for (let num = 1; num <= 5; num++) {
-  sum += value;
-  console.log(value);
-  value = value * 10 + 9;
+// sum = 0;
+// value = 9;
+// for (let num = 1; num <= 5; num++) {
+//   sum += value;
+//   console.log(value);
+//   value = value * 10 + 9;
+// }
+// console.log("The sum is: " + sum);
+
+// function binaryPiramid() {
+//   for (let i = 1; i <= 5; i++) {
+//     for (let j = 1; j <= i; j++) {
+//       console.log("1");
+//     }
+//     console.log("");
+//   }
+// }
+// binaryPiramid();
+
+function squareNumberAndSum() {
+  sum = 0;
+  var square;
+  for (let i = 1; i <= 5; i++) {
+    square = i * i;
+    console.log(square);
+    sum += square;
+  }
+  console.log("The sum of square: " + sum);
 }
-console.log("The sum is: " + sum);
+squareNumberAndSum();
