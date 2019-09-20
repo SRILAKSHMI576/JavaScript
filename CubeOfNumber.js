@@ -111,14 +111,39 @@
 // }
 // binaryPiramid();
 
-function squareNumberAndSum() {
-  sum = 0;
-  var square;
-  for (let i = 1; i <= 5; i++) {
-    square = i * i;
-    console.log(square);
-    sum += square;
+// function squareNumberAndSum() {
+//   sum = 0;
+//   var square;
+//   for (let i = 1; i <= 5; i++) {
+//     square = i * i;
+//     console.log(square);
+//     sum += square;
+//   }
+//   console.log("The sum of square: " + sum);
+// }
+// squareNumberAndSum();
+
+// function sumOfSeries() {
+//   sum = 0;
+//   value = 1;
+//   for (let i = 1; i <= 5; i++)
+//     sum += value;
+//     console.log(value);
+//     value = value * 10 + 1;
+//   }
+//   console.log("The sum of series is: " + sum);
+// }
+// sumOfSeries();
+
+sum = 0;
+for (let i = 1; i <= 28; i++) {
+  if (28 % i == 0) {
+    sum += i;
+    console.log(i);
   }
-  console.log("The sum of square: " + sum);
 }
-squareNumberAndSum();
+if (sum == 56) {
+  console.log("yes");
+} else {
+  console.log("no");
+}
