@@ -73,14 +73,30 @@
 // }
 // factorial();
 
-function evenNumbersAndSum() {
-  sum = 0;
-  for (let num = 1; num <= 20; num++) {
-    if (num % 2 == 0) {
-      console.log(num);
-      sum += num;
-    }
-  }
-  console.log("sum is: " + sum);
+// function evenNumbersAndSum() {
+//   sum = 0;
+//   for (let num = 1; num <= 20; num++) {
+//     if (num % 2 == 0) {
+//       console.log(num);
+//       sum += num;
+//     }
+//   }
+//   console.log("sum is: " + sum);
+// }
+// evenNumbersAndSum();
+
+// for (let i = 0; i < 3; i++) {
+//   for (let j = 1; j <= i + 1; j++) {
+//     console.log("*");
+//   }
+//   console.log("");
+// }
+
+sum = 0;
+value = 9;
+for (let num = 1; num <= 5; num++) {
+  sum += value;
+  console.log(value);
+  value = value * 10 + 9;
 }
-evenNumbersAndSum();
+console.log("The sum is: " + sum);
