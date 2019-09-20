@@ -64,11 +64,23 @@
 // }
 // triangleNumberPyramid();
 
-function factorial() {
-  fact = 1;
-  for (let i = 1; i <= 5; i++) {
-    fact = fact * i;
+// function factorial() {
+//   fact = 1;
+//   for (let i = 1; i <= 5; i++) {
+//     fact = fact * i;
+//   }
+//   console.log(fact);
+// }
+// factorial();
+
+function evenNumbersAndSum() {
+  sum = 0;
+  for (let num = 1; num <= 20; num++) {
+    if (num % 2 == 0) {
+      console.log(num);
+      sum += num;
+    }
   }
-  console.log(fact);
+  console.log("sum is: " + sum);
 }
-factorial();
+evenNumbersAndSum();
