@@ -4,7 +4,19 @@ function NaturalNumbers(n) {
     console.log(number);
   }
 }
-NaturalNumbers(10);
+//NaturalNumbers(10);
+
+//2....
+function SumOfNaturalNumbers(n) {
+  sum = 0;
+  console.log("The first " + n + " natural number is: ");
+  for (let number = 1; number <= n; number++) {
+    console.log(number);
+    sum += number;
+  }
+  console.log("The Sum of Natural Number upto " + n + " terms: " + sum);
+}
+//SumOfNaturalNumbers(7);
 
 function cubeOfNumber(n) {
   for (let number = 1; number <= n; number++) {
