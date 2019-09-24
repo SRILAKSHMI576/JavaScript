@@ -6,7 +6,19 @@ function NaturalNumbers(n) {
 }
 //NaturalNumbers(10);
 
-//2....
+//2...
+function SumOfTenNaturalNumbers() {
+  sum = 0;
+  console.log("The first 10 natural number is: ");
+  for (let number = 1; number <= 10; number++) {
+    console.log(number);
+    sum += number;
+  }
+  console.log("The Sum is: " + sum);
+}
+//SumOfTenNaturalNumbers();
+
+//3....
 function SumOfNaturalNumbers(n) {
   sum = 0;
   console.log("The first " + n + " natural number is: ");
