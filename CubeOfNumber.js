@@ -142,8 +142,18 @@ function NaturalNumberPyramid(n) {
     console.log();
   }
 }
-NaturalNumberPyramid(4);
+//NaturalNumberPyramid(4);
 
+//14...
+function PyramidAsterisk(n) {
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+      console.log("*");
+    }
+    console.log();
+  }
+}
+PyramidAsterisk(4);
 function factorial(n) {
   fact = 1;
   for (let i = 1; i <= n; i++) {
