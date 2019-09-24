@@ -107,17 +107,17 @@ function SumOfNineNumbers(n) {
 // }
 // binaryPiramid(5);
 
-function squareNumberAndSum() {
+function squareNumberAndSum(n) {
   sum = 0;
   var square;
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= n; i++) {
     square = i * i;
     console.log(square);
     sum += square;
   }
   console.log("The sum of square: " + sum);
 }
-//squareNumberAndSum();
+squareNumberAndSum(5);
 
 function sumOfSeries() {
   sum = 0;
