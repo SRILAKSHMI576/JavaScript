@@ -1,3 +1,11 @@
+//1....
+function NaturalNumbers(n) {
+  for (let number = 1; number <= n; number++) {
+    console.log(number);
+  }
+}
+NaturalNumbers(10);
+
 function cubeOfNumber(n) {
   for (let number = 1; number <= n; number++) {
     cube = number * number * number;
@@ -129,7 +137,7 @@ function sumOfSeries(n) {
   }
   console.log("The sum of series is: " + sum);
 }
-sumOfSeries(5);
+//sumOfSeries(5);
 
 function sumOfPerfectNumber() {
   sum = 0;
@@ -140,9 +148,9 @@ function sumOfPerfectNumber() {
     }
   }
   if (sum == 56) {
-    console.log("yes");
+    console.log("Perfect Number");
   } else {
-    console.log("no");
+    console.log("Not Perfect Number");
   }
 }
-//sumOfPerfectNumber();
+sumOfPerfectNumber();
