@@ -1,26 +1,26 @@
-function cubeOfNumber() {
-  for (let number = 1; number <= 5; number++) {
+function cubeOfNumber(n) {
+  for (let number = 1; number <= n; number++) {
     cube = number * number * number;
     console.log(number + " and cube of the " + number + " is: " + cube);
   }
 }
-cubeOfNumber();
+// cubeOfNumber(5);
+// cubeOfNumber();
 
-function MultiplicationTable() {
+function MultiplicationTable(n) {
   for (let number = 1; number <= 10; number++) {
-    console.log("15 * " + number + " = " + 15 * number);
+    console.log(n + " * " + number + " = " + n * number);
   }
 }
-MultiplicationTable();
+// MultiplicationTable(2);
+// MultiplicationTable(3);
 
 function MultiplicationTables() {
   for (let number = 1; number <= 8; number++) {
-    for (let num = 1; num <= 10; num++) {
-      console.log(number + " * " + num + " = " + number * num);
-    }
+    MultiplicationTable(8);
   }
 }
-MultiplicationTables();
+//MultiplicationTables();
 
 function oddNumbersAndSum() {
   sum = 0;
@@ -42,7 +42,7 @@ function lineTrianglePyramid() {
     console.log();
   }
 }
-lineTrianglePyramid();
+//lineTrianglePyramid();
 
 function numberPyramid() {
   for (let i = 1; i <= 4; i++) {
@@ -52,7 +52,7 @@ function numberPyramid() {
     console.log();
   }
 }
-numberPyramid();
+//numberPyramid();
 
 function triangleNumberPyramid() {
   for (let i = 1; i <= 4; i++) {
@@ -62,7 +62,7 @@ function triangleNumberPyramid() {
     console.log();
   }
 }
-triangleNumberPyramid();
+//triangleNumberPyramid();
 
 function factorial() {
   fact = 1;
@@ -71,7 +71,7 @@ function factorial() {
   }
   console.log(fact);
 }
-factorial();
+//factorial();
 
 function evenNumbersAndSum() {
   sum = 0;
@@ -83,23 +83,23 @@ function evenNumbersAndSum() {
   }
   console.log("sum is: " + sum);
 }
-evenNumbersAndSum();
+//evenNumbersAndSum();
 
-for (let i = 0; i < 3; i++) {
-  for (let j = 1; j <= i + 1; j++) {
-    console.log("*");
-  }
-  console.log("");
-}
+// for (let i = 0; i < 3; i++) {
+//   for (let j = 1; j <= i + 1; j++) {
+//     console.log("*");
+//   }
+//   console.log("");
+// }
 
-sum = 0;
-value = 9;
-for (let num = 1; num <= 5; num++) {
-  sum += value;
-  console.log(value);
-  value = value * 10 + 9;
-}
-console.log("The sum is: " + sum);
+// sum = 0;
+// value = 9;
+// for (let num = 1; num <= 5; num++) {
+//   sum += value;
+//   console.log(value);
+//   value = value * 10 + 9;
+// }
+// console.log("The sum is: " + sum);
 
 function binaryPiramid() {
   for (let i = 1; i <= 5; i++) {
@@ -109,7 +109,7 @@ function binaryPiramid() {
     console.log("");
   }
 }
-binaryPiramid();
+//binaryPiramid();
 
 function squareNumberAndSum() {
   sum = 0;
@@ -121,19 +121,19 @@ function squareNumberAndSum() {
   }
   console.log("The sum of square: " + sum);
 }
-squareNumberAndSum();
+//squareNumberAndSum();
 
 function sumOfSeries() {
   sum = 0;
   value = 1;
-  for (let i = 1; i <= 5; i++)
+  for (let i = 1; i <= 5; i++) {
     sum += value;
     console.log(value);
     value = value * 10 + 1;
   }
   console.log("The sum of series is: " + sum);
 }
-sumOfSeries();
+//sumOfSeries();
 
 function sumOfPerfectNumber() {
   sum = 0;
@@ -149,10 +149,4 @@ function sumOfPerfectNumber() {
     console.log("no");
   }
 }
-sumOfPerfectNumber();
-
-sum = 0;
-for (let i = 0; i <= 10; i++) {
-  sum = i + i;
-  console.log(sum);
-}
+//sumOfPerfectNumber();
