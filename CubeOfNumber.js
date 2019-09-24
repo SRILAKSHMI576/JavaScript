@@ -22,7 +22,7 @@ function MultiplicationTables() {
 }
 //MultiplicationTables();
 
-function oddNumbersAndSum() {
+function oddNumbersAndSum(n) {
   sum = 0;
   for (let i = 1; i <= 20; i++) {
     if (i % 2 != 0) {
@@ -32,7 +32,7 @@ function oddNumbersAndSum() {
   }
   console.log("The sum is: " + sum);
 }
-oddNumbersAndSum();
+oddNumbersAndSum(20);
 
 function lineTrianglePyramid() {
   for (let i = 1; i <= 4; i++) {
