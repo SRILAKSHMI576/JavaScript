@@ -129,7 +129,20 @@ function TriangleNaturalNumberPyramid(n) {
     console.log();
   }
 }
-TriangleNaturalNumberPyramid(4);
+//TriangleNaturalNumberPyramid(4);
+
+//13...
+function NaturalNumberPyramid(n) {
+  k = 0;
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+      k = k + 1;
+      console.log(k);
+    }
+    console.log();
+  }
+}
+NaturalNumberPyramid(4);
 
 function factorial(n) {
   fact = 1;
