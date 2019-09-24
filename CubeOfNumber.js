@@ -119,9 +119,9 @@ function triangleNumberPyramid(n) {
 //triangleNumberPyramid(5);
 
 //12...
-function TriangleNaturalNumberPyramid() {
+function TriangleNaturalNumberPyramid(n) {
   k = 0;
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
       k = k + 1;
       console.log(k);
@@ -129,7 +129,7 @@ function TriangleNaturalNumberPyramid() {
     console.log();
   }
 }
-TriangleNaturalNumberPyramid();
+TriangleNaturalNumberPyramid(4);
 
 function factorial(n) {
   fact = 1;
