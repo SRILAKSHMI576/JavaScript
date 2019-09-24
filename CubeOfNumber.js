@@ -17,14 +17,14 @@ function MultiplicationTable(n) {
 
 function MultiplicationTables() {
   for (let number = 1; number <= 8; number++) {
-    MultiplicationTable(8);
+    MultiplicationTable(1);
   }
 }
-//MultiplicationTables();
+//MultiplicationTables(8);
 
 function oddNumbersAndSum(n) {
   sum = 0;
-  for (let i = 1; i <= 20; i++) {
+  for (let i = 1; i <= n; i++) {
     if (i % 2 != 0) {
       console.log(i);
       sum += i;
