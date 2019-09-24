@@ -32,27 +32,27 @@ function oddNumbersAndSum(n) {
   }
   console.log("The sum is: " + sum);
 }
-oddNumbersAndSum(20);
+//oddNumbersAndSum(20);
 
-function lineTrianglePyramid() {
-  for (let i = 1; i <= 4; i++) {
+function lineTrianglePyramid(n) {
+  for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
       console.log("*");
     }
     console.log();
   }
 }
-//lineTrianglePyramid();
+//lineTrianglePyramid(4);
 
-function numberPyramid() {
-  for (let i = 1; i <= 4; i++) {
+function numberPyramid(n) {
+  for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
       console.log(j);
     }
     console.log();
   }
 }
-//numberPyramid();
+numberPyramid(5);
 
 function triangleNumberPyramid() {
   for (let i = 1; i <= 4; i++) {
