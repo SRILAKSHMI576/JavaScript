@@ -52,26 +52,26 @@ function numberPyramid(n) {
     console.log();
   }
 }
-numberPyramid(5);
+//numberPyramid(5);
 
-function triangleNumberPyramid() {
-  for (let i = 1; i <= 4; i++) {
+function triangleNumberPyramid(n) {
+  for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
       console.log(i);
     }
     console.log();
   }
 }
-//triangleNumberPyramid();
+//triangleNumberPyramid(5);
 
-function factorial() {
+function factorial(n) {
   fact = 1;
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= n; i++) {
     fact = fact * i;
   }
   console.log(fact);
 }
-//factorial();
+factorial(5);
 
 function evenNumbersAndSum() {
   sum = 0;
