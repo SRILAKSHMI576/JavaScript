@@ -71,11 +71,11 @@ function factorial(n) {
   }
   console.log(fact);
 }
-factorial(5);
+//factorial(5);
 
-function evenNumbersAndSum() {
+function evenNumbersAndSum(n) {
   sum = 0;
-  for (let num = 1; num <= 20; num++) {
+  for (let num = 1; num <= n; num++) {
     if (num % 2 == 0) {
       console.log(num);
       sum += num;
@@ -83,7 +83,7 @@ function evenNumbersAndSum() {
   }
   console.log("sum is: " + sum);
 }
-//evenNumbersAndSum();
+evenNumbersAndSum(20);
 
 // for (let i = 0; i < 3; i++) {
 //   for (let j = 1; j <= i + 1; j++) {
