@@ -43,7 +43,9 @@ function SumAndAvgOfNaturalNumbers(n) {
   console.log("The Sum is: " + sum);
   console.log("The Average is: " + avg);
 }
-SumAndAvgOfNaturalNumbers(10);
+//SumAndAvgOfNaturalNumbers(10);
+
+//5.....
 function cubeOfNumber(n) {
   for (let number = 1; number <= n; number++) {
     cube = number * number * number;
@@ -53,6 +55,7 @@ function cubeOfNumber(n) {
 // cubeOfNumber(5);
 // cubeOfNumber();
 
+//6....
 function MultiplicationTable(n) {
   for (let number = 1; number <= 10; number++) {
     console.log(n + " * " + number + " = " + n * number);
@@ -61,6 +64,7 @@ function MultiplicationTable(n) {
 // MultiplicationTable(2);
 // MultiplicationTable(3);
 
+//7...
 function MultiplicationTables() {
   for (let number = 1; number <= 8; number++) {
     MultiplicationTable(1);
@@ -68,6 +72,7 @@ function MultiplicationTables() {
 }
 //MultiplicationTables(8);
 
+//8...
 function oddNumbersAndSum(n) {
   sum = 0;
   for (let i = 1; i <= n; i++) {
@@ -80,6 +85,7 @@ function oddNumbersAndSum(n) {
 }
 //oddNumbersAndSum(20);
 
+//9...
 function lineTrianglePyramid(n) {
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
@@ -90,6 +96,7 @@ function lineTrianglePyramid(n) {
 }
 //lineTrianglePyramid(4);
 
+//10....
 function numberPyramid(n) {
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
@@ -100,6 +107,7 @@ function numberPyramid(n) {
 }
 //numberPyramid(5);
 
+//11....
 function triangleNumberPyramid(n) {
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
@@ -109,6 +117,19 @@ function triangleNumberPyramid(n) {
   }
 }
 //triangleNumberPyramid(5);
+
+//12...
+function TriangleNaturalNumberPyramid() {
+  k = 0;
+  for (let i = 1; i <= 4; i++) {
+    for (let j = 1; j <= i; j++) {
+      k = k + 1;
+      console.log(k);
+    }
+    console.log();
+  }
+}
+TriangleNaturalNumberPyramid();
 
 function factorial(n) {
   fact = 1;
@@ -191,4 +212,4 @@ function sumOfPerfectNumber() {
     console.log("Not Perfect Number");
   }
 }
-sumOfPerfectNumber();
+//sumOfPerfectNumber();
