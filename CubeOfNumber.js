@@ -153,7 +153,9 @@ function PyramidAsterisk(n) {
     console.log();
   }
 }
-PyramidAsterisk(4);
+//PyramidAsterisk(4);
+
+//15....
 function factorial(n) {
   fact = 1;
   for (let i = 1; i <= n; i++) {
@@ -163,6 +165,7 @@ function factorial(n) {
 }
 //factorial(5);
 
+//16...
 function evenNumbersAndSum(n) {
   sum = 0;
   for (let num = 1; num <= n; num++) {
@@ -174,6 +177,17 @@ function evenNumbersAndSum(n) {
   console.log("sum is: " + sum);
 }
 //evenNumbersAndSum(20);
+
+///17..
+function RepeatNumberPyramid(n) {
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+      console.log(i);
+    }
+    console.log();
+  }
+}
+RepeatNumberPyramid(4);
 
 function SumOfNineNumbers(n) {
   sum = 0;
