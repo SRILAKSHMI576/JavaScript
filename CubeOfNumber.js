@@ -117,19 +117,19 @@ function squareNumberAndSum(n) {
   }
   console.log("The sum of square: " + sum);
 }
-squareNumberAndSum(5);
+//squareNumberAndSum(5);
 
-function sumOfSeries() {
+function sumOfSeries(n) {
   sum = 0;
   value = 1;
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= n; i++) {
     sum += value;
     console.log(value);
     value = value * 10 + 1;
   }
   console.log("The sum of series is: " + sum);
 }
-//sumOfSeries();
+sumOfSeries(5);
 
 function sumOfPerfectNumber() {
   sum = 0;
