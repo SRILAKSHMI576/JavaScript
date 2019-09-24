@@ -95,17 +95,17 @@ function SumOfNineNumbers(n) {
   }
   console.log("The sum is: " + sum);
 }
-SumOfNineNumbers(5);
+//SumOfNineNumbers(5);
 
-function binaryPiramid() {
-  for (let i = 1; i <= 5; i++) {
-    for (let j = 1; j <= i; j++) {
-      console.log("1");
-    }
-    console.log("");
-  }
-}
-//binaryPiramid();
+// function binaryPiramid(n) {
+//   for (let i = 1; i <= n; i++) {
+//     for (let j = 1; j <= i; j++) {
+//       console.log("1");
+//     }
+//     console.log("");
+//   }
+// }
+// binaryPiramid(5);
 
 function squareNumberAndSum() {
   sum = 0;
