@@ -30,6 +30,20 @@ function SumOfNaturalNumbers(n) {
 }
 //SumOfNaturalNumbers(7);
 
+//4...
+function SumAndAvgOfNaturalNumbers(n) {
+  sum = 0;
+  avg = 0;
+  console.log("The first " + n + " natural number is: ");
+  for (let number = 1; number <= n; number++) {
+    console.log(number);
+    sum += number;
+    avg = sum / 10;
+  }
+  console.log("The Sum is: " + sum);
+  console.log("The Average is: " + avg);
+}
+SumAndAvgOfNaturalNumbers(10);
 function cubeOfNumber(n) {
   for (let number = 1; number <= n; number++) {
     cube = number * number * number;
