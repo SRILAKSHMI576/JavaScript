@@ -83,23 +83,19 @@ function evenNumbersAndSum(n) {
   }
   console.log("sum is: " + sum);
 }
-evenNumbersAndSum(20);
+//evenNumbersAndSum(20);
 
-// for (let i = 0; i < 3; i++) {
-//   for (let j = 1; j <= i + 1; j++) {
-//     console.log("*");
-//   }
-//   console.log("");
-// }
-
-// sum = 0;
-// value = 9;
-// for (let num = 1; num <= 5; num++) {
-//   sum += value;
-//   console.log(value);
-//   value = value * 10 + 9;
-// }
-// console.log("The sum is: " + sum);
+function SumOfNineNumbers(n) {
+  sum = 0;
+  value = 9;
+  for (let num = 1; num <= n; num++) {
+    sum += value;
+    console.log(value);
+    value = value * 10 + 9;
+  }
+  console.log("The sum is: " + sum);
+}
+SumOfNineNumbers(5);
 
 function binaryPiramid() {
   for (let i = 1; i <= 5; i++) {
