@@ -11,6 +11,14 @@ function getFirstValue(arr) {
 function reverseArray(arr) {
   console.log(arr.reverse());
 }
-reverseArray([1, 2, 3, 4]);
-reverseArray([9, 9, 2, 3, 4]);
-reverseArray([]);
+// reverseArray([1, 2, 3, 4]);
+// reverseArray([9, 9, 2, 3, 4]);
+// reverseArray([]);
+
+//3...Find the index of element
+function indexOfElement(arr, item) {
+  console.log(arr.indexOf(item));
+}
+indexOfElement([1, 5, 3], 5);
+indexOfElement([9, 8, 3], 3);
+indexOfElement([1, 2, 3], 4);
