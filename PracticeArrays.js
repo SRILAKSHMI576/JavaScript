@@ -64,5 +64,14 @@ function firstLast(arr) {
 function differenceElements(arr) {
   console.log(Math.max(...arr) - Math.min(...arr));
 }
-differenceElements([10, 15, 20, 2, 10, 6]);
-differenceElements([-3, 4, -9, -1, -2, 15]);
+// differenceElements([10, 15, 20, 2, 10, 6]);
+// differenceElements([-3, 4, -9, -1, -2, 15]);
+
+//9....Checking Even Numbers
+function checkAllEven(arr) {
+  console.log(arr.every(x => x % 2 === 0));
+}
+checkAllEven([1, 2, 3, 4]);
+checkAllEven([2, 4, 6]);
+checkAllEven([5, 6, 8, 10]);
+checkAllEven([-2, 2, -2, 2]);
