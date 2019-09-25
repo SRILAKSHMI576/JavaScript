@@ -89,6 +89,14 @@ function existsHigher(arr, n) {
 function removeNull(arr) {
   console.log(arr.filter(word => word != null));
 }
-removeNull(["a", null, "b", null]);
-removeNull([null, null, null, null, null]);
-removeNull([7, 8, null, 9]);
+// removeNull(["a", null, "b", null]);
+// removeNull([null, null, null, null, null]);
+// removeNull([7, 8, null, 9]);
+
+//12....Additive Inverse
+function additiveInverse(arr) {
+  console.log(arr.map(num => -num));
+}
+additiveInverse([5, -7, 8, 3]);
+additiveInverse([1, 1, 1, 1, 1]);
+additiveInverse([-5, -25, -35]);
