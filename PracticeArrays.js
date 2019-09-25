@@ -35,6 +35,19 @@ function getLastElement(arr) {
 function concatArrays(arr1, arr2) {
   console.log(arr1.concat(arr2));
 }
-concatArrays([1, 3, 5], [2, 6, 8]);
-concatArrays([7, 8], [10, 9, 1, 1, 2], [7, 8, 10, 9, 1, 1, 2]);
-concatArrays([4, 5, 1], [3, 3, 3, 3, 3]);
+// concatArrays([1, 3, 5], [2, 6, 8]);
+// concatArrays([7, 8], [10, 9, 1, 1, 2], [7, 8, 10, 9, 1, 1, 2]);
+// concatArrays([4, 5, 1], [3, 3, 3, 3, 3]);
+
+//6..Check if an Array Contains a Given Number
+function checkNumber(arr, el) {
+  if (arr.includes(el)) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+checkNumber([1, 2, 3, 4, 5], 3);
+checkNumber([1, 1, 2, 1, 1], 3);
+checkNumber([5, 5, 5, 6], 5);
+checkNumber([], 5);
