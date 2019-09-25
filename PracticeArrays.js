@@ -80,7 +80,15 @@ function checkAllEven(arr) {
 function existsHigher(arr, n) {
   console.log(Math.max(...arr) >= n);
 }
-existsHigher([5, 3, 15, 22, 4], 10);
-existsHigher([1, 2, 3, 4, 5], 8);
-existsHigher([4, 3, 3, 3, 2, 2, 2], 4);
-existsHigher([], 5);
+// existsHigher([5, 3, 15, 22, 4], 10);
+// existsHigher([1, 2, 3, 4, 5], 8);
+// existsHigher([4, 3, 3, 3, 2, 2, 2], 4);
+// existsHigher([], 5);
+
+//11....Remove Null from an Array
+function removeNull(arr) {
+  console.log(arr.filter(word => word != null));
+}
+removeNull(["a", null, "b", null]);
+removeNull([null, null, null, null, null]);
+removeNull([7, 8, null, 9]);
