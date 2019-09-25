@@ -4,5 +4,6 @@ function BasicArray() {
   arr1[0] = "s";
   console.log(arr1);
   console.log(arr1.length);
+  console.log(arr1.sort());
 }
 BasicArray();
