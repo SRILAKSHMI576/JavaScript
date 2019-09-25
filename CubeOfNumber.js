@@ -199,7 +199,18 @@ function HarmonicSeries(n) {
   }
   console.log(sum);
 }
-HarmonicSeries(5);
+//HarmonicSeries(5);
+
+//20...
+function OddPyramidAsterisk(n) {
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+      console.log("*");
+    }
+    console.log();
+  }
+}
+OddPyramidAsterisk(3);
 function SumOfNineNumbers(n) {
   sum = 0;
   value = 9;
