@@ -187,8 +187,19 @@ function RepeatNumberPyramid(n) {
     console.log();
   }
 }
-RepeatNumberPyramid(4);
+//RepeatNumberPyramid(4);
 
+//19....
+function HarmonicSeries(n) {
+  sum = 0;
+  for (let i = 1; i <= n; i++) {
+    k = 1 / parseInt(i);
+    console.log(k);
+    sum += k;
+  }
+  console.log(sum);
+}
+HarmonicSeries(5);
 function SumOfNineNumbers(n) {
   sum = 0;
   value = 9;
