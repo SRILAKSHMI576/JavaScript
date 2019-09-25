@@ -27,6 +27,14 @@ function indexOfElement(arr, item) {
 function getLastElement(arr) {
   console.log(arr[arr.length - 1]);
 }
-getLastElement([1, 2, 3]);
-getLastElement(["Cat", "dog", "duck"]);
-getLastElement([true, false, true]);
+// getLastElement([1, 2, 3]);
+// getLastElement(["Cat", "dog", "duck"]);
+// getLastElement([true, false, true]);
+
+//5.. Concatenating two integer arrays
+function concatArrays(arr1, arr2) {
+  console.log(arr1.concat(arr2));
+}
+concatArrays([1, 3, 5], [2, 6, 8]);
+concatArrays([7, 8], [10, 9, 1, 1, 2], [7, 8, 10, 9, 1, 1, 2]);
+concatArrays([4, 5, 1], [3, 3, 3, 3, 3]);
