@@ -105,7 +105,15 @@ function additiveInverse(arr) {
 function filterStateNames(arr, type) {
   console.log(arr.filter(e => (type === "abb" ? e.length < 3 : e.length > 2)));
 }
-filterStateNames(["Arizona", "CA", "NY", "Nevada"], "abb");
-filterStateNames(["Arizona", "CA", "NY", "Nevada"], "full");
-filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "abb");
-filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "full");
+// filterStateNames(["Arizona", "CA", "NY", "Nevada"], "abb");
+// filterStateNames(["Arizona", "CA", "NY", "Nevada"], "full");
+// filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "abb");
+// filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "full");
+
+//14....Eliminate Odd Numbers within an Array
+function noOdds(arr) {
+  console.log(arr.filter(e => e % 2 == 0));
+}
+noOdds([1, 2, 3, 4, 5, 6, 7, 8]);
+noOdds([43, 65, 23, 89, 53, 9, 6]);
+noOdds([718, 991, 449, 644, 380, 440]);
