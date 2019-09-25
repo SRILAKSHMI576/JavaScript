@@ -97,6 +97,15 @@ function removeNull(arr) {
 function additiveInverse(arr) {
   console.log(arr.map(num => -num));
 }
-additiveInverse([5, -7, 8, 3]);
-additiveInverse([1, 1, 1, 1, 1]);
-additiveInverse([-5, -25, -35]);
+// additiveInverse([5, -7, 8, 3]);
+// additiveInverse([1, 1, 1, 1, 1]);
+// additiveInverse([-5, -25, -35]);
+
+//13....State Names and Abbreviations
+function filterStateNames(arr, type) {
+  console.log(arr.filter(e => (type === "abb" ? e.length < 3 : e.length > 2)));
+}
+filterStateNames(["Arizona", "CA", "NY", "Nevada"], "abb");
+filterStateNames(["Arizona", "CA", "NY", "Nevada"], "full");
+filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "abb");
+filterStateNames(["MT", "NJ", "TX", "ID", "IL"], "full");
