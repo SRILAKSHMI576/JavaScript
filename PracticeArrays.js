@@ -56,6 +56,13 @@ function checkNumber(arr, el) {
 function firstLast(arr) {
   console.log([arr[0], arr[arr.length - 1]]);
 }
-firstLast([5, 10, 15, 20, 25]);
-firstLast(["edabit", 13, null, false, true]);
-firstLast([undefined, 4, "6", "hello", null]);
+// firstLast([5, 10, 15, 20, 25]);
+// firstLast(["edabit", 13, null, false, true]);
+// firstLast([undefined, 4, "6", "hello", null]);
+
+//8... difference between the largest and smallest integers in the array
+function differenceElements(arr) {
+  console.log(Math.max(...arr) - Math.min(...arr));
+}
+differenceElements([10, 15, 20, 2, 10, 6]);
+differenceElements([-3, 4, -9, -1, -2, 15]);
