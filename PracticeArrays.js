@@ -71,7 +71,16 @@ function differenceElements(arr) {
 function checkAllEven(arr) {
   console.log(arr.every(x => x % 2 === 0));
 }
-checkAllEven([1, 2, 3, 4]);
-checkAllEven([2, 4, 6]);
-checkAllEven([5, 6, 8, 10]);
-checkAllEven([-2, 2, -2, 2]);
+// checkAllEven([1, 2, 3, 4]);
+// checkAllEven([2, 4, 6]);
+// checkAllEven([5, 6, 8, 10]);
+// checkAllEven([-2, 2, -2, 2]);
+
+//10....Exists a Number Higher?
+function existsHigher(arr, n) {
+  console.log(Math.max(...arr) >= n);
+}
+existsHigher([5, 3, 15, 22, 4], 10);
+existsHigher([1, 2, 3, 4, 5], 8);
+existsHigher([4, 3, 3, 3, 2, 2, 2], 4);
+existsHigher([], 5);
