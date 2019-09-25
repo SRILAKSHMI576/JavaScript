@@ -47,7 +47,15 @@ function checkNumber(arr, el) {
     console.log("false");
   }
 }
-checkNumber([1, 2, 3, 4, 5], 3);
-checkNumber([1, 1, 2, 1, 1], 3);
-checkNumber([5, 5, 5, 6], 5);
-checkNumber([], 5);
+// checkNumber([1, 2, 3, 4, 5], 3);
+// checkNumber([1, 1, 2, 1, 1], 3);
+// checkNumber([5, 5, 5, 6], 5);
+// checkNumber([], 5);
+
+//7....Return the First and Last Elements in an Array
+function firstLast(arr) {
+  console.log([arr[0], arr[arr.length - 1]]);
+}
+firstLast([5, 10, 15, 20, 25]);
+firstLast(["edabit", 13, null, false, true]);
+firstLast([undefined, 4, "6", "hello", null]);
