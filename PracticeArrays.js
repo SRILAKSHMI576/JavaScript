@@ -154,40 +154,7 @@ function nextElement(arr) {
 
 //18...Reverse Coding Challenge
 function mysteryFunc(arr, num) {
-  if (
-    arr[0] == 5 &&
-    arr[1] == 7 &&
-    arr[2] == 8 &&
-    arr[3] == 2 &&
-    arr[4] == 1 &&
-    num == 2
-  ) {
-    return [1, 1, 0, 0, 1];
-  } else if (
-    arr[0] == 9 &&
-    arr[1] == 8 &&
-    arr[2] == 16 &&
-    arr[3] == 47 &&
-    num == 4
-  ) {
-    return [1, 0, 0, 3];
-  } else if (
-    arr[0] == 17 &&
-    arr[1] == 11 &&
-    arr[2] == 99 &&
-    arr[3] == 55 &&
-    arr[4] == 23 &&
-    arr[5] == 1 &&
-    num == 5
-  ) {
-    console.log([1, 1, 0, 0, 1]);
-  } else if (arr[0] == 6 && arr[1] == 1 && num == 7) {
-    console.log([6, 1]);
-  } else if (arr[0] == 3 && arr[1] == 2 && arr[2] == 9 && num == 3) {
-    console.log([0, 2, 0]);
-  } else {
-    console.log([8, 2, 0, 9, 3, 0]);
-  }
+  console.log(arr.map(e => e % num));
 }
 mysteryFunc([5, 7, 8, 2, 1], 2);
 mysteryFunc([9, 8, 16, 47], 4);
