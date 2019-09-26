@@ -137,7 +137,17 @@ function canCapture([yourRook, opponentsRook]) {
     console.log("false");
   }
 }
-canCapture(["A8", "E8"]);
-canCapture(["A1", "B2"]);
-canCapture(["H4", "H3"]);
-canCapture(["F5", "C8"]);
+// canCapture(["A8", "E8"]);
+// canCapture(["A1", "B2"]);
+// canCapture(["H4", "H3"]);
+// canCapture(["F5", "C8"]);
+
+//17...Next Element in Arithmetic Sequence
+function nextElement(arr) {
+  result = arr[1] - arr[0];
+  output = arr[arr.length - 1] + result;
+  console.log(output);
+}
+nextElement([3, 5, 7, 9]);
+nextElement([-5, -6, -7]);
+nextElement([2, 2, 2, 2, 2]);
