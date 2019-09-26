@@ -122,6 +122,22 @@ function noOdds(arr) {
 function minMax(arr) {
   console.log([Math.min(...arr), Math.max(...arr)]);
 }
-minMax([1, 2, 3, 4, 5]);
-minMax([2334454, 5]);
-minMax([1]);
+// minMax([1, 2, 3, 4, 5]);
+// minMax([2334454, 5]);
+// minMax([1]);
+
+//16....Write a function that returns true if two rooks can attack each other, and false otherwise.
+function canCapture([yourRook, opponentsRook]) {
+  if (
+    yourRook.charAt(0) === opponentsRook.charAt(0) ||
+    yourRook.charAt(1) === opponentsRook.charAt(1)
+  ) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+canCapture(["A8", "E8"]);
+canCapture(["A1", "B2"]);
+canCapture(["H4", "H3"]);
+canCapture(["F5", "C8"]);
