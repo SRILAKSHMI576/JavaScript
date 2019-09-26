@@ -114,6 +114,14 @@ function filterStateNames(arr, type) {
 function noOdds(arr) {
   console.log(arr.filter(e => e % 2 == 0));
 }
-noOdds([1, 2, 3, 4, 5, 6, 7, 8]);
-noOdds([43, 65, 23, 89, 53, 9, 6]);
-noOdds([718, 991, 449, 644, 380, 440]);
+// noOdds([1, 2, 3, 4, 5, 6, 7, 8]);
+// noOdds([43, 65, 23, 89, 53, 9, 6]);
+// noOdds([718, 991, 449, 644, 380, 440]);
+
+//15....Find the Smallest and Biggest Numbers
+function minMax(arr) {
+  console.log([Math.min(...arr), Math.max(...arr)]);
+}
+minMax([1, 2, 3, 4, 5]);
+minMax([2334454, 5]);
+minMax([1]);
