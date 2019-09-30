@@ -225,8 +225,17 @@ function checkEquals(arr1, arr2) {
     console.log("false");
   }
 }
-checkEquals([1, 2], [1, 3]);
-checkEquals([1, 2], [1, 2]);
-checkEquals([4, 5, 6], [4, 5, 6]);
-checkEquals([4, 7, 6], [4, 5, 6]);
-checkEquals([1, 12], [11, 2]);
+// checkEquals([1, 2], [1, 3]);
+// checkEquals([1, 2], [1, 2]);
+// checkEquals([4, 5, 6], [4, 5, 6]);
+// checkEquals([4, 7, 6], [4, 5, 6]);
+// checkEquals([1, 12], [11, 2]);
+
+//26...Filter by Digit Length
+function filterDigitLength(arr, num) {
+  console.log(arr.filter(numbers => numbers.toString().length == num));
+}
+filterDigitLength([88, 232, 4, 9721, 555], 3);
+filterDigitLength([2, 7, 8, 9, 1012], 1);
+filterDigitLength([32, 88, 74, 91, 300, 4050], 1);
+filterDigitLength([5, 6, 8, 9], 1);
