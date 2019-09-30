@@ -167,6 +167,14 @@ function mysteryFunc(arr, num) {
 function notDivisibleBy13(nums) {
   console.log(nums.filter(e => e % 13 != 0));
 }
-notDivisibleBy13([53, 182, 435, 591, 637]);
-notDivisibleBy13([24, 316, 393, 458, 1279]);
-notDivisibleBy13([104, 351, 455, 806, 871]);
+// notDivisibleBy13([53, 182, 435, 591, 637]);
+// notDivisibleBy13([24, 316, 393, 458, 1279]);
+// notDivisibleBy13([104, 351, 455, 806, 871]);
+
+//20... Create a function that goes through the array, incrementing (+1) for each odd number and decrementing (-1) for each even number.
+function transform(arr) {
+  console.log(arr.map(e => (e % 2 == 0 ? (e -= 1) : (e += 1))));
+}
+transform([1, 2, 3, 4, 5]);
+transform([3, 3, 4, 3]);
+transform([2, 2, 0, 8, 10]);
