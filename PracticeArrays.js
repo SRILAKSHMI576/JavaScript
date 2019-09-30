@@ -214,5 +214,19 @@ function countDown(start) {
 function removeEmptyArrays(arr) {
   console.log(arr.filter(x => x != false));
 }
-removeEmptyArrays(["a", "b", []]);
-removeEmptyArrays([1, 2, [], 4]);
+// removeEmptyArrays(["a", "b", []]);
+// removeEmptyArrays([1, 2, [], 4]);
+
+//25... Comparing Arrays
+function checkEquals(arr1, arr2) {
+  if (arr1.join() === arr2.join()) {
+    console.log("true");
+  } else {
+    console.log("false");
+  }
+}
+checkEquals([1, 2], [1, 3]);
+checkEquals([1, 2], [1, 2]);
+checkEquals([4, 5, 6], [4, 5, 6]);
+checkEquals([4, 7, 6], [4, 5, 6]);
+checkEquals([1, 12], [11, 2]);
