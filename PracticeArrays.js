@@ -245,4 +245,18 @@ function filterDigitLength(arr, num) {
 function getStudentsNames(students) {
   console.log(students.map(a => a.name));
 }
-getStudentsNames([{ name: "Steve" }, { name: "Mike" }, { name: "John" }]);
+//getStudentsNames([{ name: "Steve" }, { name: "Mike" }, { name: "John" }]);
+
+//28.. Check Factors
+function checkFactors(factors, num) {
+  for (let i = 0; i < factors.length; i++) {
+    if (num % factors[i] !== 0) {
+      console.log("false");
+    }
+  }
+  console.log("true");
+}
+checkFactors([2, 3, 4], 12);
+checkFactors([1, 2, 3, 8], 12);
+checkFactors([1, 2, 50], 100);
+checkFactors([3, 6], 9);
