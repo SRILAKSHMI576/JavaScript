@@ -206,6 +206,13 @@ function countDown(start) {
   }
   console.log(arr);
 }
-countDown(5);
-countDown(1);
-countDown(0);
+// countDown(5);
+// countDown(1);
+// countDown(0);
+
+//24...: Filtering out Empty Arrays
+function removeEmptyArrays(arr) {
+  console.log(arr.filter(x => x != false));
+}
+removeEmptyArrays(["a", "b", []]);
+removeEmptyArrays([1, 2, [], 4]);
