@@ -156,9 +156,17 @@ function nextElement(arr) {
 function mysteryFunc(arr, num) {
   console.log(arr.map(e => e % num));
 }
-mysteryFunc([5, 7, 8, 2, 1], 2);
-mysteryFunc([9, 8, 16, 47], 4);
-mysteryFunc([17, 11, 99, 55, 23, 1], 5);
-mysteryFunc([6, 1], 7);
-mysteryFunc([3, 2, 9], 3);
-mysteryFunc([48, 22, 0, 19, 33, 100], 10);
+// mysteryFunc([5, 7, 8, 2, 1], 2);
+// mysteryFunc([9, 8, 16, 47], 4);
+// mysteryFunc([17, 11, 99, 55, 23, 1], 5);
+// mysteryFunc([6, 1], 7);
+// mysteryFunc([3, 2, 9], 3);
+// mysteryFunc([48, 22, 0, 19, 33, 100], 10);
+
+//19.. Given a sorted array of numbers, remove any numbers that are divisible by 13. Return the amended array.
+function notDivisibleBy13(nums) {
+  console.log(nums.filter(e => e % 13 != 0));
+}
+notDivisibleBy13([53, 182, 435, 591, 637]);
+notDivisibleBy13([24, 316, 393, 458, 1279]);
+notDivisibleBy13([104, 351, 455, 806, 871]);
