@@ -184,6 +184,16 @@ function calcDeterminant(matrix) {
   reverseMatrix = matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0];
   console.log(reverseMatrix);
 }
-calcDeterminant([[1, 2], [3, 4]]);
-calcDeterminant([[5, 3], [3, 1]]);
-calcDeterminant([[1, 1], [1, 1]]);
+// calcDeterminant([[1, 2], [3, 4]]);
+// calcDeterminant([[5, 3], [3, 1]]);
+// calcDeterminant([[1, 1], [1, 1]]);
+
+//22...Typing game
+function correctStream(user, correct) {
+  console.log(user.map((word, index) => (correct[index] == word ? 1 : -1)));
+}
+correctStream(["it", "is", "find"], ["it", "is", "fine"]);
+correctStream(
+  ["april", "showrs", "bring", "may", "flowers"],
+  ["april", "showers", "bring", "may", "flowers"]
+);
