@@ -192,8 +192,20 @@ function calcDeterminant(matrix) {
 function correctStream(user, correct) {
   console.log(user.map((word, index) => (correct[index] == word ? 1 : -1)));
 }
-correctStream(["it", "is", "find"], ["it", "is", "fine"]);
-correctStream(
-  ["april", "showrs", "bring", "may", "flowers"],
-  ["april", "showers", "bring", "may", "flowers"]
-);
+// correctStream(["it", "is", "find"], ["it", "is", "fine"]);
+// correctStream(
+//   ["april", "showrs", "bring", "may", "flowers"],
+//   ["april", "showers", "bring", "may", "flowers"]
+// );
+
+//23...Generate a Countdown of Numbers in an Array
+function countDown(start) {
+  var arr = [];
+  for (let i = start; i >= 0; i--) {
+    arr.push(i);
+  }
+  console.log(arr);
+}
+countDown(5);
+countDown(1);
+countDown(0);
