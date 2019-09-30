@@ -175,6 +175,15 @@ function notDivisibleBy13(nums) {
 function transform(arr) {
   console.log(arr.map(e => (e % 2 == 0 ? (e -= 1) : (e += 1))));
 }
-transform([1, 2, 3, 4, 5]);
-transform([3, 3, 4, 3]);
-transform([2, 2, 0, 8, 10]);
+// transform([1, 2, 3, 4, 5]);
+// transform([3, 3, 4, 3]);
+// transform([2, 2, 0, 8, 10]);
+
+//21...Create a function to calculate the determinant of a 2 x 2 matrix. The determinant of the following matrix is: ad - bc:
+function calcDeterminant(matrix) {
+  reverseMatrix = matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0];
+  console.log(reverseMatrix);
+}
+calcDeterminant([[1, 2], [3, 4]]);
+calcDeterminant([[5, 3], [3, 1]]);
+calcDeterminant([[1, 1], [1, 1]]);
