@@ -279,7 +279,16 @@ function minusOne(arr) {
   arr.pop();
   console.log(arr);
 }
-minusOne(x);
-minusOne(x);
-minusOne(x);
-minusOne(x);
+// minusOne(x);
+// minusOne(x);
+// minusOne(x);
+// minusOne(x);
+
+//31...Sam and Frodo need to be close. If they are side by side in the array, your function should return true. If there is a name between them, return false.
+function middleEarth(arr) {
+  console.log(Math.abs(arr.indexOf("Sam") - arr.indexOf("Frodo")) === 1);
+}
+
+middleEarth(["Frodo", "Sam", "Gandalf"]);
+middleEarth(["Frodo", "Saruman", "Sam"]);
+middleEarth(["Orc", "Sam", "Frodo", "Legolas"]);
