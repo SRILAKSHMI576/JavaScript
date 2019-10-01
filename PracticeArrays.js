@@ -260,3 +260,15 @@ checkFactors([2, 3, 4], 12);
 checkFactors([1, 2, 3, 8], 12);
 checkFactors([1, 2, 50], 100);
 checkFactors([3, 6], 9);
+
+//29..Mutating Arrays
+x = [1, 2, 3, 4, 5];
+function minusOne(arr) {
+  arr1 = [...arr];
+  arr1.pop();
+  console.log(arr1);
+}
+minusOne(x);
+minusOne(x);
+minusOne(x);
+minusOne(x);
