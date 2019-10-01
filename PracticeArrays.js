@@ -268,6 +268,17 @@ function minusOne(arr) {
   arr1.pop();
   console.log(arr1);
 }
+// minusOne(x);
+// minusOne(x);
+// minusOne(x);
+// minusOne(x);
+
+//30..Mutating Arrays
+x = [1, 2, 3, 4, 5];
+function minusOne(arr) {
+  arr.pop();
+  console.log(arr);
+}
 minusOne(x);
 minusOne(x);
 minusOne(x);
