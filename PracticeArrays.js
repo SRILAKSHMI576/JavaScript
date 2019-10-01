@@ -289,6 +289,17 @@ function middleEarth(arr) {
   console.log(Math.abs(arr.indexOf("Sam") - arr.indexOf("Frodo")) === 1);
 }
 
-middleEarth(["Frodo", "Sam", "Gandalf"]);
-middleEarth(["Frodo", "Saruman", "Sam"]);
-middleEarth(["Orc", "Sam", "Frodo", "Legolas"]);
+// middleEarth(["Frodo", "Sam", "Gandalf"]);
+// middleEarth(["Frodo", "Saruman", "Sam"]);
+// middleEarth(["Orc", "Sam", "Frodo", "Legolas"]);
+
+//32...Even Odd Partition
+function evenOdd(arr) {
+  var even = arr.filter(x => x % 2 == 0);
+  var odd = arr.filter(x => x % 2 != 0);
+  console.log([even, odd]);
+}
+evenOdd([5, 8, 9, 2, 0]);
+evenOdd([1, 0, 1, 0, 1, 0]);
+evenOdd([1, 3, 5, 7, 9]);
+evenOdd([]);
