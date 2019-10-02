@@ -242,8 +242,9 @@ function binaryPiramid(n) {
     console.log("");
   }
 }
-binaryPiramid(5);
+// binaryPiramid(5);
 
+//25....
 function squareNumberAndSum(n) {
   sum = 0;
   var square;
@@ -254,8 +255,9 @@ function squareNumberAndSum(n) {
   }
   console.log("The sum of square: " + sum);
 }
-//squareNumberAndSum(5);
+// squareNumberAndSum(5);
 
+//26.....
 function sumOfSeries(n) {
   sum = 0;
   value = 1;
@@ -268,18 +270,18 @@ function sumOfSeries(n) {
 }
 //sumOfSeries(5);
 
-function sumOfPerfectNumber() {
+function sumOfPerfectNumber(n) {
   sum = 0;
-  for (let i = 1; i <= 28; i++) {
-    if (28 % i == 0) {
+  for (let i = 1; i < n; i++) {
+    if (n % i == 0) {
       sum += i;
       console.log(i);
     }
   }
-  if (sum == 56) {
+  if (sum == n) {
     console.log("Perfect Number");
   } else {
     console.log("Not Perfect Number");
   }
 }
-//sumOfPerfectNumber();
+sumOfPerfectNumber(56);
