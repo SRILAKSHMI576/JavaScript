@@ -89,12 +89,12 @@ function oddNumbersAndSum(n) {
 function lineTrianglePyramid(n) {
   for (let i = 1; i <= n; i++) {
     for (let j = 1; j <= i; j++) {
-      console.log("*");
+      console.log("* ");
     }
     console.log();
   }
 }
-//lineTrianglePyramid(4);
+// lineTrianglePyramid(4);
 
 //10....
 function numberPyramid(n) {
@@ -105,7 +105,7 @@ function numberPyramid(n) {
     console.log();
   }
 }
-//numberPyramid(5);
+// numberPyramid(5);
 
 //11....
 function triangleNumberPyramid(n) {
@@ -201,6 +201,21 @@ function HarmonicSeries(n) {
 }
 //HarmonicSeries(5);
 
+//20.... RightAnglePiramid
+function rightAnglePyramid(n) {
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= 2 * n - 1; j++) {
+      if (j >= n - (i - 1) && j <= n + (i - 1)) {
+        console.log("*");
+      } else {
+        console.log(" ");
+      }
+    }
+    console.log();
+  }
+}
+rightAnglePyramid(3);
+
 //21....
 function SumOfNineNumbers(n) {
   sum = 0;
@@ -263,4 +278,3 @@ function sumOfPerfectNumber() {
   }
 }
 //sumOfPerfectNumber();
-

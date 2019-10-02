@@ -256,10 +256,10 @@ function checkFactors(factors, num) {
   }
   console.log("true");
 }
-checkFactors([2, 3, 4], 12);
-checkFactors([1, 2, 3, 8], 12);
-checkFactors([1, 2, 50], 100);
-checkFactors([3, 6], 9);
+// checkFactors([2, 3, 4], 12);
+// checkFactors([1, 2, 3, 8], 12);
+// checkFactors([1, 2, 50], 100);
+// checkFactors([3, 6], 9);
 
 //29..Mutating Arrays
 x = [1, 2, 3, 4, 5];
@@ -299,7 +299,11 @@ function evenOdd(arr) {
   var odd = arr.filter(x => x % 2 != 0);
   console.log([even, odd]);
 }
-evenOdd([5, 8, 9, 2, 0]);
-evenOdd([1, 0, 1, 0, 1, 0]);
-evenOdd([1, 3, 5, 7, 9]);
-evenOdd([]);
+// evenOdd([5, 8, 9, 2, 0]);
+// evenOdd([1, 0, 1, 0, 1, 0]);
+// evenOdd([1, 3, 5, 7, 9]);
+// evenOdd([]);
+
+var str = 235;
+var strCopy = str.split();
+console.log(strCopy);
