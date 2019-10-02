@@ -214,7 +214,7 @@ function rightAnglePyramid(n) {
     console.log();
   }
 }
-rightAnglePyramid(3);
+// rightAnglePyramid(3);
 
 //21....
 function SumOfNineNumbers(n) {
@@ -229,15 +229,20 @@ function SumOfNineNumbers(n) {
 }
 //SumOfNineNumbers(5);
 
-// function binaryPiramid(n) {
-//   for (let i = 1; i <= n; i++) {
-//     for (let j = 1; j <= i; j++) {
-//       console.log("1");
-//     }
-//     console.log("");
-//   }
-// }
-// binaryPiramid(5);
+//22.. Binary Right angle pyramid
+function binaryPiramid(n) {
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= i; j++) {
+      if ((i + j) % 2 == 0) {
+        console.log("1");
+      } else {
+        console.log("0");
+      }
+    }
+    console.log("");
+  }
+}
+binaryPiramid(5);
 
 function squareNumberAndSum(n) {
   sum = 0;
