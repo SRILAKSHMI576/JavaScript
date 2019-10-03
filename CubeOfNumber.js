@@ -270,6 +270,7 @@ function sumOfSeries(n) {
 }
 //sumOfSeries(5);
 
+//27...Perfect number or not
 function sumOfPerfectNumber(n) {
   sum = 0;
   for (let i = 1; i < n; i++) {
@@ -284,4 +285,20 @@ function sumOfPerfectNumber(n) {
     console.log("Not Perfect Number");
   }
 }
-sumOfPerfectNumber(56);
+// sumOfPerfectNumber(56);
+
+//28...Perfect number range
+function sumOfPerfectNumber(n) {
+  for (let i = 1; i <= n; i++) {
+    sum = 0;
+    for (let j = 1; j < i; j++) {
+      if (i % j == 0) {
+        sum += j;
+      }
+    }
+    if (sum == i) {
+      console.log(i);
+    }
+  }
+}
+sumOfPerfectNumber(50);
