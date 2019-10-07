@@ -67,7 +67,7 @@ function findElementInArray() {
 // minElement();
 
 function avgNumbers() {
-  var arr = [1, 3, 5, 7, 9];
+  var arr = [12, 35, 57, 79, 29];
   sum = 0;
   n = arr.length - 1;
   for (let i = 0; i <= n; i++) {
