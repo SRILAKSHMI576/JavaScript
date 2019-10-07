@@ -38,4 +38,17 @@ function SumOfArray() {
   }
   console.log(sum);
 }
-SumOfArray();
+// SumOfArray();
+
+function findElement() {
+  var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  n = arr.length - 1;
+  for (let i = 0; i <= n; i++) {
+    if (4 == arr[i]) {
+      console.log("index of Element: ", arr.indexOf(arr[i]));
+    } else {
+      console.log("-1");
+    }
+  }
+}
+findElement();
