@@ -57,4 +57,23 @@ function findElementInArray() {
   var arr = [1, 2, 34, 5, 6, 7, 8, 3];
   console.log(arr.indexOf(1));
 }
-findElementInArray();
+// findElementInArray();
+
+// function minElement() {
+//   var arr = [11, 23, 56, 2, 8, 22, 998, 5, 77];
+//   n = arr.length - 1;
+//   for (let i = 0; i <= n; i++) {}
+// }
+// minElement();
+
+function avgNumbers() {
+  var arr = [1, 3, 5, 7, 9];
+  sum = 0;
+  n = arr.length - 1;
+  for (let i = 0; i <= n; i++) {
+    sum += arr[i];
+    avg = sum / arr.length;
+  }
+  console.log(avg);
+}
+avgNumbers();
