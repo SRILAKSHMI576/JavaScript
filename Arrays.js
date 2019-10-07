@@ -59,12 +59,20 @@ function findElementInArray() {
 }
 // findElementInArray();
 
-// function minElement() {
-//   var arr = [11, 23, 56, 2, 8, 22, 998, 5, 77];
-//   n = arr.length - 1;
-//   for (let i = 0; i <= n; i++) {}
-// }
-// minElement();
+function minElement() {
+  var arr = [11, 23, 56, 2, 8, 22, 998, 5, 77];
+  n = arr.length - 1;
+  for (let i = 0; i <= n; i++) {
+    minimum = arr[0];
+    for (i = 1; i <= n; i++) {
+      if (arr[i] < minimum) {
+        minimum = arr[i];
+        console.log(minimum);
+      }
+    }
+  }
+}
+//minElement();
 
 function avgNumbers() {
   var arr = [12, 35, 57, 79, 29];
@@ -76,4 +84,4 @@ function avgNumbers() {
   }
   console.log(avg);
 }
-avgNumbers();
+// avgNumbers();
