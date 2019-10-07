@@ -1,5 +1,5 @@
 function arraySquare() {
-  var arr = [1, 2, 3, 4, 5, 7, 8, 9, 10];
+  var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   n = arr.length - 1;
   for (let i = 0; i <= n; i++) {
     console.log(arr[i] * arr[i]);
@@ -27,4 +27,15 @@ function DivisibleByThreeFive() {
     }
   }
 }
-DivisibleByThreeFive();
+// DivisibleByThreeFive();
+
+function SumOfArray() {
+  var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  n = arr.length - 1;
+  sum = 0;
+  for (let i = 0; i <= n; i++) {
+    sum += arr[i];
+  }
+  console.log(sum);
+}
+SumOfArray();
