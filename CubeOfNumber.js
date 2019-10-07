@@ -301,4 +301,4 @@ function sumOfPerfectNumber(n) {
     }
   }
 }
-sumOfPerfectNumber(50);
+// sumOfPerfectNumber(50);
