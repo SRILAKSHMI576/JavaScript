@@ -117,10 +117,16 @@ function multiplyByTen(arr) {
 
 function sumOfSquares(arr) {
   sum = 0;
-  return arr.map(function(element) {
+  const allSquaresOfSum = arr.map(function(element) {
     const square = element * element;
-    sum = sum + square;
-    return sum;
+    return square;
   });
 }
-console.log(sumOfSquares([1, 2, 3]));
+// console.log(sumOfSquares([1, 2, 3]));
+
+function lengthOfString(arr) {
+  return arr.map(function(element) {
+    return element.length;
+  });
+}
+console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
