@@ -102,16 +102,25 @@ function maxElement() {
 // maxElement();
 
 function filterDivisibleByTen(arr) {
-  return arr.filter(function(element, index) {
+  return arr.filter(function(element) {
     return element % 10 == 0;
   });
 }
 // console.log(filterDivisibleByTen([10, 20, 56, 45, 35, 67, 89, 40]));
 
 function multiplyByTen(arr) {
-  return arr.map(function(element, index) {
+  return arr.map(function(element) {
     return element * 10;
   });
 }
+// console.log(multiplyByTen([4, 45, 3, 5, 3, 2, 5]));
 
-console.log(multiplyByTen([4, 45, 3, 5, 3, 2, 5]));
+function sumOfSquares(arr) {
+  sum = 0;
+  return arr.map(function(element) {
+    const square = element * element;
+    sum = sum + square;
+    return sum;
+  });
+}
+console.log(sumOfSquares([1, 2, 3]));
