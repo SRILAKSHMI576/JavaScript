@@ -82,3 +82,5 @@ function arraySlice(arr, a, b) {
 const result = arraySlice([12, 67, 4, 78, 55, 34, 8, 12], 2, 5);
 console.log(result);
 // console.log(squareElement([4, 45, 3, 5, 3, 2, 5]));
+
+function divisibleBy(arr)

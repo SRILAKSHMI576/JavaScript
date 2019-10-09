@@ -101,14 +101,9 @@ function maxElement() {
 }
 // maxElement();
 
-function divisibleByTen(x) {
-  return x % 10 == 0;
-}
-
 function filterDivisibleByTen(arr) {
-  return arr.filter(x => {
-    return divisibleByTen(x);
+  return arr.filter(function(element, index) {
+    return element % 10 == 0;
   });
 }
-
 console.log(filterDivisibleByTen([10, 20, 56, 45, 35, 67, 89, 40]));
