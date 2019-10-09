@@ -106,4 +106,12 @@ function filterDivisibleByTen(arr) {
     return element % 10 == 0;
   });
 }
-console.log(filterDivisibleByTen([10, 20, 56, 45, 35, 67, 89, 40]));
+// console.log(filterDivisibleByTen([10, 20, 56, 45, 35, 67, 89, 40]));
+
+function multiplyByTen(arr) {
+  return arr.map(function(element, index) {
+    return element * 10;
+  });
+}
+
+console.log(multiplyByTen([4, 45, 3, 5, 3, 2, 5]));
