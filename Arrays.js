@@ -85,3 +85,30 @@ function avgNumbers() {
   console.log(avg);
 }
 // avgNumbers();
+
+function maxElement() {
+  var arr = [11, 23, 56, 2, 8, 22, 998, 5, 77];
+  n = arr.length - 1;
+  for (let i = 0; i <= n; i++) {
+    maximum = arr[0];
+    for (i = 1; i <= n; i++) {
+      if (arr[i] > maximum) {
+        maximum = arr[i];
+        console.log(maximum);
+      }
+    }
+  }
+}
+// maxElement();
+
+function divisibleByTen(x) {
+  return x % 10 == 0;
+}
+
+function filterDivisibleByTen(arr) {
+  return arr.filter(x => {
+    return divisibleByTen(x);
+  });
+}
+
+console.log(filterDivisibleByTen([10, 20, 56, 45, 35, 67, 89, 40]));
