@@ -45,3 +45,16 @@ var Tony = {
     street: "333 Second St."
   };
   
+var greet ="Hello!";
+var greet = "HOla!"
+
+console.log(greet)
+
+var english = {};
+var spanish = {};
+
+english.greet = "Hello";
+spanish.greet = "Hola";
+
+console.log(english);
+console.log(spanish)
