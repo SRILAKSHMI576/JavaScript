@@ -118,11 +118,15 @@ function multiplyByTen(arr) {
 function sumOfSquares(arr) {
   sum = 0;
   const allSquaresOfSum = arr.map(function(element) {
-    const square = element * element;
-    return square;
+    return element * element;
   });
+   n = allSquaresOfSum.length-1;
+   for(let index = 0; index <= n ;index++){
+     sum += allSquaresOfSum[index]
+   }
+   return sum;
 }
-// console.log(sumOfSquares([1, 2, 3]));
+console.log(sumOfSquares([1, 2, 3]));
 
 function lengthOfString(arr) {
   return arr.map(function(element) {
