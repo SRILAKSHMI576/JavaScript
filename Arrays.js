@@ -126,11 +126,18 @@ function sumOfSquares(arr) {
    }
    return sum;
 }
-console.log(sumOfSquares([1, 2, 3]));
+//console.log(sumOfSquares([1, 2, 3]));
 
 function lengthOfString(arr) {
   return arr.map(function(element) {
     return element.length;
   });
 }
-console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
+//console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
+
+function filterElements(arr){
+  return arr.filter(function(element){
+    return element.startsWith("Sri")
+  })
+}
+console.log(filterElements(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]))
