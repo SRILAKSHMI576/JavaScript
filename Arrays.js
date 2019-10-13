@@ -141,3 +141,4 @@ function filterElements(arr){
   })
 }
 console.log(filterElements(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]))
+
