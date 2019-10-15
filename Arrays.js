@@ -118,17 +118,22 @@ function multiplyByTen(arr) {
 function sumOfSquares(arr) {
   sum = 0;
   const allSquaresOfSum = arr.map(function(element) {
-    const square = element * element;
-    return square;
+    return element * element;
   });
+   n = allSquaresOfSum.length-1;
+   for(let index = 0; index <= n ;index++){
+     sum += allSquaresOfSum[index]
+   }
+   return sum;
 }
-// console.log(sumOfSquares([1, 2, 3]));
+//console.log(sumOfSquares([1, 2, 3]));
 
 function lengthOfString(arr) {
   return arr.map(function(element) {
     return element.length;
   });
 }
+<<<<<<< HEAD
 // console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
 
 function findMatching(arr, str) {
@@ -141,3 +146,14 @@ function findMatching(arr, str) {
 console.log(
   findMatching(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"], "Sri")
 );
+=======
+//console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
+
+function filterElements(arr){
+  return arr.filter(function(element){
+    return element.startsWith("Sri")
+  })
+}
+console.log(filterElements(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]))
+
+>>>>>>> fc280b002ebfa95d39d0e7abd156aa1e545d4595
