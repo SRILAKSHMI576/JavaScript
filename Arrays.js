@@ -129,4 +129,15 @@ function lengthOfString(arr) {
     return element.length;
   });
 }
-console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
+// console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
+
+function findMatching(arr, str) {
+  return arr.map(function(element) {
+    if (element === str) {
+      return element;
+    }
+  });
+}
+console.log(
+  findMatching(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"], "Sri")
+);
