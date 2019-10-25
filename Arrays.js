@@ -133,6 +133,20 @@ function lengthOfString(arr) {
     return element.length;
   });
 }
+<<<<<<< HEAD
+// console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
+
+function findMatching(arr, str) {
+  return arr.map(function(element) {
+    if (element === str) {
+      return element;
+    }
+  });
+}
+console.log(
+  findMatching(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"], "Sri")
+);
+=======
 //console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
 
 function filterElements(arr) {
@@ -156,6 +170,7 @@ function sumOfArray() {
 const result = sumOfArray();
 //console.log(result);
 
+<<<<<<< HEAD
 function gridPattern() {
   for (let i = 0; i < 10; i++) {
     for (let j = 0; j < 10; j++) {
@@ -189,3 +204,6 @@ function specificValue(m) {
   }
 }
 //specificValue(89);
+=======
+>>>>>>> fc280b002ebfa95d39d0e7abd156aa1e545d4595
+>>>>>>> a2f4f1e0c9adf2b3aec224136a036a0d125aa3da
