@@ -133,7 +133,7 @@ function lengthOfString(arr) {
     return element.length;
   });
 }
-<<<<<<< HEAD
+
 // console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
 
 function findMatching(arr, str) {
@@ -143,10 +143,8 @@ function findMatching(arr, str) {
     }
   });
 }
-console.log(
-  findMatching(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"], "Sri")
-);
-=======
+//console.log(
+findMatching(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"], "Sri");
 //console.log(lengthOfString(["Ram", "Hari", "Sri", "Srinu", "Srilaxmi", "Abc"]));
 
 function filterElements(arr) {
@@ -170,7 +168,6 @@ function sumOfArray() {
 const result = sumOfArray();
 //console.log(result);
 
-<<<<<<< HEAD
 function gridPattern() {
   for (let i = 0; i < 10; i++) {
     for (let j = 0; j < 10; j++) {
@@ -184,7 +181,7 @@ function gridPattern() {
 function avgVauleOfArray() {
   let sum = 0;
   const arr = [3, 4, 5, 7, 9];
-  arrSize = arr.length - 1;
+  const arrSize = arr.length - 1;
   for (let index = 0; index <= arrSize; index++) {
     sum += arr[index];
     avgValue = sum / arr.length;
@@ -192,7 +189,7 @@ function avgVauleOfArray() {
   return avgValue;
 }
 const results = avgVauleOfArray();
-//console.log(results);
+console.log(results);
 
 function specificValue(m) {
   const arr = [23, 45, 21, 89, 67, 54, 90, 11, 5];
@@ -204,6 +201,3 @@ function specificValue(m) {
   }
 }
 //specificValue(89);
-=======
->>>>>>> fc280b002ebfa95d39d0e7abd156aa1e545d4595
->>>>>>> a2f4f1e0c9adf2b3aec224136a036a0d125aa3da
