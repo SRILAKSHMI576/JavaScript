@@ -189,11 +189,11 @@ function avgVauleOfArray() {
   return avgValue;
 }
 const results = avgVauleOfArray();
-console.log(results);
+//console.log(results);
 
 function specificValue(m) {
   const arr = [23, 45, 21, 89, 67, 54, 90, 11, 5];
-  n = arr.length - 1;
+  const n = arr.length - 1;
   for (let index = 0; index <= n; index++) {
     if (arr[index] == m) {
       console.log("true");
@@ -201,3 +201,21 @@ function specificValue(m) {
   }
 }
 //specificValue(89);
+
+function findIndexOfElement(num) {
+  const arr = [23, 45, 21, 89, 67, 54, 90, 11, 5];
+  const n = arr.length - 1;
+  for (let index = 0; index <= n; index++) {
+    if (arr[index] == num) {
+      console.log(index);
+    }
+  }
+}
+findIndexOfElement(89);
+
+function sortingArray() {
+  let Arrays;
+  const arr = [23, 45, 21, 89, 67, 54, 90, 11, 5];
+  console.log(Arrays.sort(arr));
+}
+//sortingArray();
