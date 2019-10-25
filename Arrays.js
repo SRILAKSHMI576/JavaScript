@@ -165,3 +165,16 @@ function gridPattern() {
   }
 }
 //gridPattern();
+
+function avgVauleOfArray() {
+  let sum = 0;
+  const arr = [3, 4, 5, 7, 9];
+  arrSize = arr.length - 1;
+  for (let index = 0; index <= arrSize; index++) {
+    sum += arr[index];
+    avgValue = sum / arr.length;
+  }
+  return avgValue;
+}
+const results = avgVauleOfArray();
+console.log(results);
