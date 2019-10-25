@@ -9,8 +9,11 @@ var arr = [
     var greeting = "Hello ";
     console.log(greeting + name);
   },
-  "Hello"
+  "Hello",
+  5,
+  function(x, y) {
+    for (let i = 0; i < y; i++) {
+      console.log(x);
+    }
+  }
 ];
-
-console.log(arr);
-arr[3](arr[2].name);
