@@ -177,4 +177,15 @@ function avgVauleOfArray() {
   return avgValue;
 }
 const results = avgVauleOfArray();
-console.log(results);
+//console.log(results);
+
+function specificValue(m) {
+  const arr = [23, 45, 21, 89, 67, 54, 90, 11, 5];
+  n = arr.length - 1;
+  for (let index = 0; index <= n; index++) {
+    if (arr[index] == m) {
+      console.log("true");
+    }
+  }
+}
+//specificValue(89);
