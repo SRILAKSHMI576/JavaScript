@@ -211,11 +211,11 @@ function findIndexOfElement(num) {
     }
   }
 }
-findIndexOfElement(89);
+//findIndexOfElement(89);
 
 function sortingArray() {
-  let Arrays;
-  const arr = [23, 45, 21, 89, 67, 54, 90, 11, 5];
-  console.log(Arrays.sort(arr));
+  const arr = [23, 45, 21, 89, 67, 54, 90, 11];
+  return arr.sort();
 }
-//sortingArray();
+const result1 = sortingArray();
+console.log(result1);
