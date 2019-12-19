@@ -1,29 +1,46 @@
-function maxSum(arr) {
-  sum = 0;
+// function SecondHighest(arr) {
+//   n = arr.length - 1;
+//   arr.sort(sortNumber);
+//   for (let i = 0; i <= n; i++) {
+//     return arr[i];
+//   }
+// }
+
+// const result = SecondHighest([2, 3, 6, 6, 15]);
+// console.log(result);
+
+// function sortNumber(a, b) {
+//   return b - a;
+// }
+
+// function findIndexElement() {
+//   let array = [23, 45, 3, 12, 778];
+//   n = array.length - 1;
+//   for (let index = 0; index <= n; index++) {
+//     console.log(index + ", " + array[index]);
+//   }
+// }
+// findIndexElement();
+
+let users = [
+  { id: 1, name: "John" },
+  { id: 2, name: "Pete" },
+  { id: 3, name: "Mary" }
+];
+
+//console.log(users[1]);
+
+function stringPattern() {
+  let arr = ["sri", "srinu", "laxmi"];
   n = arr.length - 1;
-  arr.sort(sortNumber);
-  for (let i = 1; i <= n; i++) {
-    sum = sum + arr[i];
+  for (let i = 0; i <= n; i++) {
+    console.log("A message to " + arr[i]);
   }
-  return sum;
 }
+stringPattern();
 
-const result4 = maxSum([1, 3, 5, 7, 9]);
-console.log(result4);
-
-function minSum(arr) {
-  n = arr.length - 1;
-  arr.sort(sortNumber);
-  sum = 0;
-  for (let i = 0; i <= n - 1; i++) {
-    sum = sum + arr[i];
-  }
-  return sum;
-}
-
-const result5 = minSum([1, 3, 9, 7, 5]);
-console.log(result5);
-
-function sortNumber(a, b) {
-  return b - a;
+let names = "Bilbo, Gandalf, Nazgul";
+let arr = names.split(", ");
+for (let name of arr) {
+  console.log(`A message to ${name}.`); // A message to Bilbo  (and other names)
 }

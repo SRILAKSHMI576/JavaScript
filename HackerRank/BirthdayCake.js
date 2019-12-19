@@ -1,5 +1,4 @@
 function maxSum(arr) {
-  max = arr[0];
   n = arr.length - 1;
   arr.sort(sortNumber);
   max = arr[arr.length - 1];
